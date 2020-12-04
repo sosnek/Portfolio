@@ -4,6 +4,7 @@ import { Button } from "./Button";
 import "./Background.css";
 import ReactTypingEffect from "react-typing-effect";
 import Particles from "react-particles-js";
+import Cards from './Cards.js';
 
 function Background() {
   return (
@@ -34,8 +35,15 @@ function Background() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          onClick={console.log("hey")}
-        >
+          onClick={() => {
+            let node = document.getElementById(
+              Cards.myRef.id
+            );
+            window.scrollTo({
+              top: node.offsetTop,
+              behavior: "smooth"
+            });
+          }}>
           View Projects <i className="far fa-play-circle" />
         </Button>
       </div>
