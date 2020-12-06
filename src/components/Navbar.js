@@ -25,6 +25,7 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+
     return (
         <>
             <nav className="navbar">
@@ -58,9 +59,9 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle ='btn--outline'><i className="fa fa-github fa-2x" /> </Button>}
+                    {button && <Button href="https://github.com/sosnek" buttonStyle ='btn--outline'><i className="fa fa-github fa-2x" /> </Button>}
                     &nbsp;&nbsp;&nbsp;
-                    {button && <Button buttonStyle ='btn--outline'><i className="fa fa-linkedin fa-2x" /> </Button>}
+                    {button && <Button href="https://linkedin.com/in/adam-sosnowski-40b996156" buttonStyle ='btn--outline'><i className="fa fa-linkedin fa-2x" /> </Button>}
                 </div>
             </nav>
         </>

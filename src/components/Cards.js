@@ -1,8 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import 'react-router-dom';
 
 function Cards() {
+
+
     return (
       <div className='cards'>
         <h1>My Projects</h1>
@@ -13,7 +16,7 @@ function Cards() {
                 src='images/Filescanner.PNG'
                 text='Filescanner uses the virus total API to retrieve virus scan analytics'
                 label='FileScanner'
-                Click='https://github.com/sosnek/FileScanner'
+                onClick="s"//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
               />
               <CardItem
                 src='images/GrowthWatch.png'
