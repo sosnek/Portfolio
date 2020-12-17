@@ -3,7 +3,6 @@ import "../App.css";
 import { Button } from "./Button";
 import "./Background.css";
 import ReactTypingEffect from "react-typing-effect";
-import Particles from "react-particles-js";
 
 function Background() {
   return (
