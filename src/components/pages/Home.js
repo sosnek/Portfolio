@@ -4,6 +4,7 @@ import Background from '../Background';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import About from '../About';
+import Resume from '../Resume';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         <Background/>
         <About/>
         <Cards/>
+        <Resume/>
         <Footer/>
       </>
     );
