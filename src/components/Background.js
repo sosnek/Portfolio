@@ -3,12 +3,11 @@ import "../App.css";
 import { Button } from "./Button";
 import "./Background.css";
 import ReactTypingEffect from "react-typing-effect";
+import { Link } from "react-scroll";
 
 function Background() {
   return (
-     
-          
-      <div className="background-container">
+    <div className="background-container" id="background-id">
       <video src="/videos/carvid.webm" autoPlay loop muted />
       <h1>Hi, I'm Adam</h1>
 
@@ -22,23 +21,37 @@ function Background() {
       />
 
       <div className="background-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
+        <Link
+          to="about-id"
+          className="about-me-link"
+          smooth={true}
+          duration={1000}
         >
-          About Me
-        </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
           >
-          View Projects <i className="fas fa-code" />
-        </Button>
+            About Me
+          </Button>
+        </Link>
+
+        <Link
+          to="cards-id"
+          className="projects-link"
+          smooth={true}
+          duration={1000}
+        >
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+          >
+            View Projects <i className="fas fa-code" />
+          </Button>
+        </Link>
       </div>
     </div>
-    
   );
 }
 

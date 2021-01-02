@@ -14,7 +14,7 @@ function Cards() {
   }
 
   return (
-    <div className="cards">
+    <div className="cards" id="cards-id">
       <h1>My Projects</h1>
       <div className="cards__container">
         <div className="cards__wrapper">

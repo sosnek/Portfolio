@@ -8,7 +8,7 @@ function Footer() {
       <div className='footer-container'>
         <section className='footer-subscription'>
           <p className='footer-subscription-heading'>
-            Please give me a job
+            Made using ReactJs
           </p>
           <div className='input-areas'>
           </div>

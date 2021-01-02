@@ -4,15 +4,12 @@
   padding: 4rem;
   background: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
-  max-height: 600px;
+  max-height: 800px;
 }
 
 .about-container {
-  align-items: left;
-  justify-content: left;
   width: 50%;
 }
-
 
 .about-container > h1 {
   color: black;
@@ -27,8 +24,38 @@
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
   margin-left: 400px;
+  width: 50%;
 }
 
 .about-image {
   float: left;
+}
+
+@media screen and (max-width: 960px) {
+  .about-container {
+    width: 100%;
+  }
+ 
+}
+
+
+@media screen and (max-width: 960px) {
+  .about-container > h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .about-text-container > h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: block;
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 100%;
+  }
+
 }

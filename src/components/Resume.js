@@ -3,7 +3,7 @@ import "./Resume.css";
 
 function Resume() {
   return (
-    <div className="resume">
+    <div className="resume" id="resume-id">
       <div className="resume-container">
         <h1>My Resume</h1>
         <div className="resume-wrapper">

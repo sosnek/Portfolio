@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import { Button } from './Button';
 import './Navbar.css';
 
@@ -29,8 +29,8 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-container">
-                    <Link to='/' className="navbar-logo" onClick= {closeMobileMenu}>
+                <div className="navbar-container" id="navbar-id">
+                    <Link to='background-id' className="navbar-logo" smooth={true} duration={1000} onClick= {closeMobileMenu}>
                         Adam 
                         <i className="fas fa-code" />
                     </Link>
@@ -39,22 +39,22 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='background-id' className='nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='about-id' className='nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
                                 About Me
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='cards-id' className='nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
                                 Projects
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='resume-id' className='nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
                                 Resume
                             </Link>
                         </li>
