@@ -39,7 +39,7 @@ function Cards() {
               onClick={redirectCapStone}
             >
               <CardItem
-                src="images/Filescan.png"
+                src="images/Filescan.jpg"
                 text="Filescanner uses the virus total API to retrieve virus scan analytics using REST API"
                 label="FileScanner"
               />
