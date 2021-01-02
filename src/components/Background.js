@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 function Background() {
   return (
     <div className="background-container" id="background-id">
-      <video src="/videos/carvid.webm" autoPlay loop muted />
+      <video src="/videos/particles.mp4" autoPlay loop muted />
       <h1>Hi, I'm Adam</h1>
 
       <ReactTypingEffect
