@@ -6,11 +6,11 @@ import { Button } from "./Button";
 
 function Cards() {
   function redirectFileScan() {
-    window.location.href = "https://github.com/sosnek/FileScanner";
-  }
-
-  function redirectCapStone() {
     window.location.href = 'https://github.com/sosnek/CapstoneProject';
+  }
+  
+  function redirectCapStone() {
+    window.location.href = 'https://github.com/sosnek/FileScanner';
   }
 
   return (
@@ -26,7 +26,7 @@ function Cards() {
               onClick={redirectFileScan}
             >
               <CardItem
-                src="images/Filescan.png"
+                src="images/GrowthWatch.png"
                 text="Filescanner uses the virus total API to retrieve virus scan analytics using REST API"
                 label="FileScanner"
               />
@@ -39,7 +39,7 @@ function Cards() {
               onClick={redirectCapStone}
             >
               <CardItem
-                src="images/GrowthWatch.png"
+                src="images/Filescan.png"
                 text="GrowthWatch Measures and saves canopy plant data with near complete automation"
                 label="GrowthWatch"
               />
