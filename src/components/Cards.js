@@ -26,7 +26,7 @@ function Cards() {
               onClick={redirectFileScan}
             >
               <CardItem
-                src="images/Filescanner.PNG"
+                src="images/Filescan.png"
                 text="Filescanner uses the virus total API to retrieve virus scan analytics using REST API"
                 label="FileScanner"
               />
