@@ -26,7 +26,7 @@ function Cards() {
               onClick={redirectFileScan}
             >
               <CardItem
-                src="images/GrowthWatch.png"
+                src={require("images/GrowthWatch.png")}
                 text="Filescanner uses the virus total API to retrieve virus scan analytics using REST API"
                 label="FileScanner"
               />
@@ -39,7 +39,7 @@ function Cards() {
               onClick={redirectCapStone}
             >
               <CardItem
-                src="images/Filescan.png"
+                src={require("images/Filescan.png")}
                 text="GrowthWatch Measures and saves canopy plant data with near complete automation"
                 label="GrowthWatch"
               />
