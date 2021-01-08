@@ -21,7 +21,7 @@ function Footer() {
                 <i class='fas fa-code' />
               </Link>
             </div>
-            <small class='website-rights'>Adam Sosnowski © 2020</small>
+            <small class='website-rights'>Adam Sosnowski © 2021</small>
           </div>
         </section>
       </div>
