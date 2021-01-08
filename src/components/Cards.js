@@ -27,7 +27,7 @@ function Cards() {
             >
               <CardItem
                 src="images/GrowthWatch.png"
-                text="GrowthWatch Measures and saves canopy plant data with near complete automation"
+                text="GrowthWatch measures + saves canopy plant data with near complete automation"
                 label="GrowthWatch"
               />
             </Button>
@@ -40,7 +40,7 @@ function Cards() {
             >
               <CardItem
                 src="images/Filescan.png"
-                text="Filescanner uses the virus total API to retrieve virus scan analytics using REST API"
+                text="Filescanner uses the Virus Total API to retrieve virus scan analytics using REST API"
                 label="FileScanner"
               />
             </Button>
