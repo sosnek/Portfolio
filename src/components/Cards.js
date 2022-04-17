@@ -13,6 +13,10 @@ function Cards() {
     window.location.href = 'https://github.com/sosnek/FileScanner';
   }
 
+  function redirectLeagly() {
+    window.location.href = 'https://github.com/sosnek/Leagly';
+  }
+
   return (
     <div className="cards" id="cards-id">
       <h1>My Projects</h1>
@@ -35,13 +39,26 @@ function Cards() {
             <Button
               className="btns"
               buttonStyle="btn--outline"
-              buttonSize="btn--medium"
+              buttonSize="btn--large"
               onClick={redirectCapStone}
             >
               <CardItem
                 src="images/Filescan.png"
                 text="Filescanner uses the Virus Total API to retrieve virus scan analytics using REST API"
                 label="FileScanner"
+              />
+            </Button>
+            &nbsp;
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize=".btn--large"
+              onClick={redirectLeagly}
+            >
+              <CardItem
+                src="images/leagly.png"
+                text="a League of Legends Discord bot aimed at providing real time player data."
+                label="Leagly"
               />
             </Button>
           </ul>
