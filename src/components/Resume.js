@@ -10,9 +10,6 @@ function Resume() {
           <ul className="resume-item">
             <img src="images/resume1.PNG"></img>
           </ul>
-          <ul className="resume-item2">
-            <img src="images/resume2.PNG"></img>
-          </ul>
         </div>
       </div>
     </div>

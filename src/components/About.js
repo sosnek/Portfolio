@@ -8,7 +8,7 @@ function About() {
       <div className="about-container">
         <h1>About Me</h1>
         <div>
-          <Image className="about-image" src="images/me.jpg" roundedCircle />
+          <Image className="about-image" src="images/subaru.jpg" roundedCircle />
           <div className="about-text-container">
             <h2>
               Hi! I'm Adam. I recently graduated from Software Engineering Technology at Conestoga College.{" "}
